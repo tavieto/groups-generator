@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Groups Genarator</string>
+    <string name="app_name">Groups Generator</string>
     <string name="labelGroups">Groups</string>
     <string name="labelStudents">Students</string>
     <string name="labelButton">Generate</string>
