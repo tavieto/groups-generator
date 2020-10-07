@@ -18,3 +18,5 @@
 <p>
   O problema que busquei solucionar estava relacionado com os nichos criados em sala de aula. Os professores buscando criar melhor interação entre os alunos da classe passou a escolher os indivíduos que iriam formar cada grupo manualmente. Para tornar o processo justo, começaram a utilizar folhas de papel para realizar o sorteio, mas esse processo tomava muito tempo de aula e começou a me incomdar. Então pensei em uma ferramenta que geraria todos os grupos com apenas um toque, e o resultado é o desenvolvimento desta aplicação.
 </p>
+
+<h2><i>Capturas de tela 📱</i></h2>
