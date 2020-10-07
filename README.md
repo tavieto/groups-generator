@@ -10,8 +10,6 @@
   A aplicação <b>Groups generator</b> criada para <b>Android</b> tem como objetivo misturar grupos de pessoas, com foco escolar, para que tenham uma oportunidade de conhecer melhor novas pessoas e aprimorar suas habilidades de trabalho em grupo.
 </p>
 
----
-
 <h2 align="left"><i>Idealização 💭</i></h2>
   
 <p>
