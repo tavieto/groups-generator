@@ -26,3 +26,5 @@
 <img src="https://user-images.githubusercontent.com/56049250/95400752-d1798d00-08e1-11eb-823c-8c5d3ddebe05.png" alt="print-3"/> &nbsp;
 
 > Cada número sorteado corresponde ao número do aluno da lista de frequência
+
+<h2>Desafios e aprendizagem 🤔</h2>
