@@ -32,3 +32,11 @@
 <p>
   Aproximadamente à 2 anos eu fiz esse mesmo aplicativo utilizando <a href="https://docs.oracle.com/javase/8/">Java</a> no <a href="https://developer.android.com/studio">Android Studio</a>, mas ele continha uma limitação de no máximo 8 grupos e aproximadamente 67 alunos. Infelizmente, perdi o código-fonte dele então resolvi recriar a aplicação utilizando <a href="https://kotlinlang.org/">Kotlin</a>. Inicialmente utilizei o codelab de <a href="https://developer.android.com/kotlin/androidbasics">Noções básicas do Android em Kotlin</a> para ter alguma experiência com a linguagem e utilizar o que foi aprendido em outros projetos. Posso afirmar com certeza que Kotlin é mais fácil de trabalhar do que Java, mas por conta de uma estrutura específica do Java que não estava presente no Kotlin acabei tendo dificuldades para formular a lógica com as estruturas disponíveis. Todo o processo de desenvolvimento até aqui foi desafiador, mas continuarei me esforçando para adquirir mais habilidades.
 </p>
+
+<h2><i>Licença 📝</i></h2>
+
+<p>
+  Este repositório está sob licença do <a href="https://www.mit.edu/">MIT</a>. Você pode ler o arquivo <a href="https://github.com/tavieto/groups-generator/blob/main/LICENSE">LICENSE</a> para mais detalhes.
+</p>
+
+> Este projeto está sendo desenvolvido por <a href="https://www.linkedin.com/in/tavieto/">Otávio Gabriel</a>.
