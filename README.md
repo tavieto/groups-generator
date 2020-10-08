@@ -41,6 +41,11 @@
 
 </br>
 
+<a href="https://github.com/tavieto/groups-generator/blob/main/apk/groups-generator-v0.1.0-beta.apk"><h2><i>Download APK</i></h2></a>
+<img src="https://github.com/tavieto/groups-generator/blob/main/screenshots/qrcode.svg"/>
+
+</br>
+
 <h2><i>Licença 📝</i></h2>
 
 <p>
