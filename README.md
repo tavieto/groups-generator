@@ -1,7 +1,7 @@
 <h1 align="center">Groups generator</h1>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/56049250/95395495-295dc700-08d5-11eb-8aac-18931ec631b4.png"/>
+  <a href="https://www.flaticon.com/authors/freepik"><img src="https://user-images.githubusercontent.com/56049250/95395495-295dc700-08d5-11eb-8aac-18931ec631b4.png"/></a>
 </div>
 
 <h2 align="left"><i>Sobre ℹ</i></h2>
@@ -20,3 +20,7 @@
 </p>
 
 <h2><i>Capturas de tela 📱</i></h2>
+
+<img src="https://user-images.githubusercontent.com/56049250/95400748-cfafc980-08e1-11eb-8b8c-797fda3b3f6f.png" alt="print-1"/> &nbsp;
+<img src="https://user-images.githubusercontent.com/56049250/95400755-d2aaba00-08e1-11eb-92b4-b7d458364c97.png" alt="print-2"/> &nbsp;
+<img src="https://user-images.githubusercontent.com/56049250/95400752-d1798d00-08e1-11eb-823c-8c5d3ddebe05.png" alt="print-3"/> &nbsp;
