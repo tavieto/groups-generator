@@ -27,4 +27,4 @@
 
 > Cada número sorteado corresponde ao número do aluno da lista de frequência
 
-<h2>Desafios e aprendizagem 🤔</h2>
+<h2><i>Desafios e aprendizagem 🤔</i></h2>
