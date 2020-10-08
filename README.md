@@ -21,9 +21,9 @@
 
 <h2><i>Capturas de tela 📱</i></h2>
 
-<img src="https://user-images.githubusercontent.com/56049250/95400748-cfafc980-08e1-11eb-8b8c-797fda3b3f6f.png" alt="print-1"/> &nbsp;
-<img src="https://user-images.githubusercontent.com/56049250/95400755-d2aaba00-08e1-11eb-92b4-b7d458364c97.png" alt="print-2"/> &nbsp;
-<img src="https://user-images.githubusercontent.com/56049250/95400752-d1798d00-08e1-11eb-823c-8c5d3ddebe05.png" alt="print-3"/> &nbsp;
+<img src="https://github.com/tavieto/groups-generator/blob/main/screenshots/groups-generator-1-reduzido.png" alt="print-1"/> &nbsp;
+<img src="https://github.com/tavieto/groups-generator/blob/main/screenshots/groups-generator-2-reduzido.png" alt="print-2"/> &nbsp;
+<img src="https://github.com/tavieto/groups-generator/blob/main/screenshots/groups-generator-3-reduzido.png" alt="print-3"/> &nbsp;
 
 > Cada número sorteado corresponde ao número do aluno da lista de frequência
 
