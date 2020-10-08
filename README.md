@@ -43,6 +43,8 @@
 
 <a href="https://github.com/tavieto/groups-generator/blob/main/apk/groups-generator-v0.1.0-alpha.apk"><h2><i>Download APK</i></h2></a>
 <img src="https://github.com/tavieto/groups-generator/blob/main/screenshots/qrcode.svg"/>
+> Ao escanear o QR code você será direcionado para a lista de todos os arquivos APK.
+> Recomendo que faça download da última versão para se manter atualizado.
 
 </br>
 
