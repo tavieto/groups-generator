@@ -25,6 +25,10 @@
 <img src="https://github.com/tavieto/groups-generator/blob/main/screenshots/groups-generator-2-reduzido.png" alt="print-2"/> &nbsp;
 <img src="https://github.com/tavieto/groups-generator/blob/main/screenshots/groups-generator-3-reduzido.png" alt="print-3"/> &nbsp;
 
-> Cada número sorteado corresponde ao número do aluno da lista de frequência
+> Cada número sorteado corresponde ao número do aluno na lista de frequência
 
 <h2><i>Desafios e aprendizagem 🤔</i></h2>
+
+<p>
+  Aproximadamente à 2 anos eu fiz esse mesmo aplicativo utilizando <a href="https://docs.oracle.com/javase/8/">Java</a> no <a href="https://developer.android.com/studio">Android Studio</a>, mas ele continha uma limitação de no máximo 8 grupos e aproximadamente 67 alunos. Infelizmente, perdi o código-fonte dele então resolvi recriar a aplicação utilizando <a href="https://kotlinlang.org/">Kotlin</a>. Inicialmente utilizei o codelab de <a href="https://developer.android.com/kotlin/androidbasics">Noções básicas do Android em Kotlin</a> para ter alguma experiência com a linguagem e utilizar o que foi aprendido em outros projetos. Posso afirmar com certeza que Kotlin é mais fácil de trabalhar do que Java, mas por conta de uma estrutura específica do Java que não estava presente no Kotlin acabei tendo dificuldades para formular a lógica com as estruturas disponíveis. Todo o processo de desenvolvimento até aqui foi desafiador, mas continuarei me esforçando para adquirir mais habilidades.
+</p>
