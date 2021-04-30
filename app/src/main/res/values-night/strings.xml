@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="number_groups">Groups</string>
+    <string name="calculate">Calculate</string>
+    <string name="number_students">Students</string>
+</resources>
