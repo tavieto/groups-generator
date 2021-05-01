@@ -3,4 +3,6 @@
     <string name="number_groups">Groups</string>
     <string name="number_students">Students</string>
     <string name="calculate">Calculate</string>
+    <string name="total">Total:</string>
+    <string name="number">Numbers:</string>
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gerador de grupos</string>
+    <string name="number_groups">Grupos</string>
+    <string name="number_students">Estudantes</string>
+    <string name="calculate">Calcular</string>
+    <string name="total">Total:</string>
+    <string name="number">Números:</string>
+</resources>
