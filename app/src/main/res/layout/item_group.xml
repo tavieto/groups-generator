@@ -4,20 +4,21 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/bc_item_group"
-    android:layout_marginVertical="5dp">
+    android:layout_marginVertical="5dp"
+    android:paddingBottom="16dp">
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/txt_number_group"
+        android:id="@+id/number_group"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
         android:text="1"
         android:textSize="16pt"
-        android:padding="15dp"
+        android:paddingTop="15dp"
+        android:paddingHorizontal="15dp"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/txt_lbl_total"
@@ -25,14 +26,14 @@
         android:layout_height="wrap_content"
 
         android:text="Total:"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:textStyle="italic"
 
-        app:layout_constraintTop_toTopOf="@id/txt_number_group"
-        app:layout_constraintStart_toEndOf="@id/txt_number_group"/>
+        app:layout_constraintTop_toTopOf="@id/number_group"
+        app:layout_constraintStart_toEndOf="@id/number_group"/>
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/txt_number_total"
+        android:id="@+id/number_total"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
@@ -57,12 +58,14 @@
         />
 
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/numbers"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
 
         android:text="12, 8, 6, 9, 24, 36, 7"
         android:textStyle="bold"
-        android:layout_marginHorizontal="5dp"
+        android:justificationMode="inter_word"
+        android:layout_marginHorizontal="16dp"
 
         app:layout_constraintStart_toEndOf="@id/txt_lbl_numbers"
         app:layout_constraintTop_toTopOf="@id/txt_lbl_numbers"
