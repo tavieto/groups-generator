@@ -1,7 +1,5 @@
 package br.com.tavieto.groupsgenerator
 
-import android.util.Log
-
 class Create {
     private var _listOfGroups = mutableListOf<Group>()
     private val listOfGroups: List<Group> = _listOfGroups
@@ -16,8 +14,6 @@ class Create {
     }
 
     private fun generateRandomNumbers(allStudents: Int): List<Int> {
-        Log.i("TESTE", "generateRandomNumbers")
-
         val intRange = 1..allStudents
         val arrayOfRandom = IntArray(allStudents)
         var counter = 0
@@ -42,8 +38,6 @@ class Create {
     }
 
     private fun separatePerGroup(allGroups: Int, allStudents: Int): List<Int> {
-
-        Log.i("TESTE", "separatePerGroup")
 
         val studentsInEachGroup = IntArray(allGroups)
         val excess = allStudents % allGroups
@@ -88,16 +82,12 @@ class Create {
         studentsPerGroup: List<Int>,
         randomNumbers: List<Int>
     ) {
-        Log.i("TESTE", "createGroupList")
-        Log.i("TESTE", "Estudantes por grupo: $studentsPerGroup")
 
         var counterGroups = 0
         var init = 0
         var final = studentsPerGroup[counterGroups]
 
         while (counterGroups < allGroups) {
-
-//            Log.i("TESTE", "index-1: $final")
 
             _listOfGroups.add(
                 Group(
@@ -107,23 +97,13 @@ class Create {
                 )
             )
 
-//            Log.i("TESTE", "index-2: $final")
-
-            Log.i("TESTE", randomNumbers.toList().subList(init, final).toString())
-
             init += studentsPerGroup[counterGroups]
 
             if (counterGroups != allGroups-1) {
                 final += studentsPerGroup[counterGroups + 1]
             }
 
-//            final += studentsPerGroup[counterGroups + 1]
-
-//            Log.i("TESTE", "index-3: $final")
-
             counterGroups++
-
-//            Log.i("TESTE", "index-4: $final")
         }
 
 

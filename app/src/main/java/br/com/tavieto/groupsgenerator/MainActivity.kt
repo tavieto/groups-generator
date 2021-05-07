@@ -5,6 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.AppCompatEditText
 import androidx.recyclerview.widget.RecyclerView
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,25 +32,41 @@ class MainActivity : AppCompatActivity() {
             val textGroupsNumber = groupsNumber.text.toString()
             val textStudentsNumber = studentsNumber.text.toString()
 
-            if (verifyInputValue(textGroupsNumber, textStudentsNumber)) {
-                adapter.setItems(
-                    Create().start(
-                        textGroupsNumber.toInt(),
-                        textStudentsNumber.toInt()
-                    )
-                )
+            val bool = verifyInputValue(textGroupsNumber, textStudentsNumber)
+
+            var response: List<Group>
+
+            if (bool) {
+                CoroutineScope(Dispatchers.IO).launch {
+                    response = Create()
+                        .start(
+                            textGroupsNumber.toInt(),
+                            textStudentsNumber.toInt()
+                        )
+
+                    CoroutineScope(Dispatchers.Main).launch {
+                        adapter.setItems(response)
+                    }
+                }
+
+
             } else {
                 adapter.setItems(
                     emptyList()
                 )
             }
+
         }
     }
+
 
     private fun verifyInputValue(
         textGroupsNumber: String,
         textStudentsNumber: String
     ): Boolean {
-        return !((textGroupsNumber == "" || textGroupsNumber == "0") || (textStudentsNumber == "" || textStudentsNumber == "0"))
+        return !((textGroupsNumber == "" || textGroupsNumber == "0") ||
+                (textStudentsNumber == "" || textStudentsNumber == "0"))
     }
+
+
 }
